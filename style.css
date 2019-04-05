@@ -1,9 +1,5 @@
 main{
 	background: lightblue;
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-top: 25px;
-	width: calc(100% - 50px);
 	display: inline-block;
 	float:left; 			
 }
@@ -15,7 +11,10 @@ div h1{
 
 .lab1{
 	display: inline-block;
-	width: calc(25% - 50px);	
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	width: calc(100% - 200px);	
 }
 
 div p{
@@ -26,7 +25,7 @@ div p{
 
 @media screen and (max-width: 700px) and (min-width: 400px){
 	.lab1{
-		width: calc(50% - 50px);
+		width: calc(50% - 100px);
 		color: red;
 	}
 }
