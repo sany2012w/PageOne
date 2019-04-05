@@ -3,7 +3,6 @@ main{
 	display: inline-block;
 	float:left;
 	width: calc(100% - 200px);
-	margin 0;
 }
 
 div h1{
