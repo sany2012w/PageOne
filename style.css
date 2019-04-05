@@ -1,0 +1,40 @@
+main{
+	background: lightblue;
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100%;
+	display: inline-block;
+	float:left; 			
+}
+
+div h1{
+	color: green;
+	text-align: center;
+}
+
+.lab1{
+	display: inline-block;
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 25%;	
+}
+
+div p{
+	float: left;
+ 	color: white;
+	text-align: center; 
+}
+
+@media screen and (max-width: 700px) and (min-width: 400px){
+	.lab1{
+		width: 50%;
+		color: red;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.lab1{
+		width: 100%;
+		color: black;
+	}
+}
