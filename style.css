@@ -2,6 +2,9 @@ main{
 	background: lightblue;
 	display: inline-block;
 	float:left;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
 	width: calc(100% - 50px);
 }
 
@@ -12,9 +15,6 @@ div h1{
 
 .lab1{
 	display: inline-block;
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-top: 25px;
 	width: calc(100% - 50px);
 }
 
